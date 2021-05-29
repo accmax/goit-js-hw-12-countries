@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.page-header {
+  margin-top: 100px;
+  text-shadow: 1px 1px 2px white, 0 0 1em white;
+}
+
+.search-input {
+  margin-top: 20px;
+}
+
+.countries-container {
+  margin-top: 30px;
+}
+
+.countries-list-country {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.country-info {
+  margin-right: 12px;
+}
+
+.country-card {
+  display: flex;
+  align-items: top;
+}
+
+.country-data-item {
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+.country-data-value {
+  font-weight: normal;
+}
+
+.languages-list {
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+.countryNameInput {
+  border: 2px solid grey;
+  border-radius: 3px;
+}
